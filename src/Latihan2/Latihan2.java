@@ -31,6 +31,7 @@ public class Latihan2 extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -42,7 +43,6 @@ public class Latihan2 extends javax.swing.JFrame {
         editabsen = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        jPanel3 = new javax.swing.JPanel();
         editalamat = new javax.swing.JTextField();
 
         jPanel1.setBackground(new java.awt.Color(51, 255, 204));
@@ -54,6 +54,9 @@ public class Latihan2 extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 102, 255));
 
         jPanel4.setBackground(new java.awt.Color(255, 51, 255));
+
+        jPanel3.setBackground(new java.awt.Color(102, 255, 204));
+        jPanel3.setLayout(null);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -117,10 +120,6 @@ public class Latihan2 extends javax.swing.JFrame {
         jLabel6.setText("FORMULIR");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(130, 20, 120, 22);
-
-        jPanel3.setBackground(new java.awt.Color(102, 255, 204));
-        getContentPane().add(jPanel3);
-        jPanel3.setBounds(0, 0, 380, 430);
         getContentPane().add(editalamat);
         editalamat.setBounds(140, 190, 170, 30);
 
